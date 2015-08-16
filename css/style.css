@@ -1,0 +1,241 @@
+/* Custom CSS for Royal Restaurant */
+
+body {
+	color: #000;
+	background: #fff url(../res/img/bkg.png) 0 0 repeat;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	padding-top: 40px;
+}
+
+p {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+nav.navbar .brand {
+	color: #ff7800;
+	
+}	
+
+.navbar-inner {
+	border-bottom: 2px solid #999;
+}
+
+nav.navbar .brand:hover {
+	color: #fd9b43;
+}	
+
+body.about ul.nav li.nav_about a, body.work ul.nav li.nav_work a, body.contact ul.nav li.nav_contact a {
+	color: #ff7800;
+}
+
+footer .container {
+	margin-top: .5em;
+	padding-top: .5em;
+	border-top: 1px dashed #ff7800;
+}
+
+footer .container p {
+	text-align: center;
+}
+
+/* Homepage */	
+
+#callout {
+	padding-bottom: 1em;
+	margin-bottom: 2%;
+	border-bottom: 1px dotted #999;
+}
+
+body.home #callout {
+	min-height: 500px;
+	background: url(../res/img/home01.jpg) 0 0 no-repeat;
+	background-size : 100% 100%;
+}
+
+body.sas #callout{
+	min-height:500px;
+	background: url(../res/img/appetizer.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+body.coas #callout{
+	min-height:500px;
+	background: url(../res/img/caprese_on_a_stick.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+body.csc #callout{
+	min-height:500px;
+	background: url(../res/img/crunchy_spiced_chickpeas.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+body.sde #callout{
+	min-height:500px;
+	background: url(../res/img/simple_deviled_eggs.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+
+body.aboutTheRestaurant #callout{
+	min-height:500px;
+	background: url(../res/img/home01.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+#callout p {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 2.7em;
+	color: #000000;
+	line-height: 1.5;
+	text-align:center;
+	padding: 1em 0 0 0;
+}
+
+h3.menu_text, h3.click_call_text, h3.navigation_text, h3.feedback_text {
+	padding-left: 55px;
+	padding-top: 5px;
+	height: 32px;
+	font-size: 24px;
+}
+h3.menu_text {
+	background: transparent url(../res/img/menu.png) 0 0 no-repeat;
+	padding-left: 55px;
+	padding-top: 5px;
+	height: 64px;
+	
+}
+h3.click_call_text {
+	background: transparent url(../res/img/click_to_call.png) 0 0 no-repeat;
+	padding-left: 55px;
+	padding-top: 5px;
+	height: 64px;
+	
+}
+h3.navigation_text {
+	background: transparent url(../res/img/navigation.png) 0 0 no-repeat;
+	padding-left: 55px;
+	padding-top: 5px;
+	height: 64px;
+	
+}
+h3.feedback_text {
+	background: transparent url(../res/img/feedback.png) 0 0 no-repeat;
+	padding-left: 55px;
+	padding-top: 5px;
+	height: 64px;
+	
+}
+
+/* Work page */
+
+ul.services {
+	list-style-type: none; 
+	margin-left: 0;
+	margin-bottom: 20px;
+	float: left;
+}
+ul.services li {
+	margin: 7px 0 0 0;
+	padding-left: 20px;
+	padding-right: 5px; 
+	display:block;
+	float: left;
+	font-size: 16px;
+}
+ul.services li:first-child {
+	margin-left: 0;
+}
+	
+li.services_code { /*work page sprites*/
+	background: transparent url(https://dl.dropboxusercontent.com/u/1307245/rww/images/sprite_sm.png) 0 -32px no-repeat; 
+	height: 16px;
+}
+li.services_edit {
+	background: transparent url(https://dl.dropboxusercontent.com/u/1307245/rww/images/sprite_sm.png) 0 -64px no-repeat;
+	height: 16px;
+}
+li.services_design {
+	background: transparent url(https://dl.dropboxusercontent.com/u/1307245/rww/images/sprite_sm.png) 0 0 no-repeat;  
+	height: 16px;
+}
+li.services_search {
+	background: transparent url(https://dl.dropboxusercontent.com/u/1307245/rww/images/sprite_sm.png) 0 -96px no-repeat;  
+	height: 16px;
+}
+
+body.work .span6 p {
+	clear: left;
+	font-size: 16px;
+}	
+
+body.work .tmb {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+body.work section .row {
+	padding-top: 1.5em;
+	margin-top: 1.5em;
+	border-top: 1px dotted #999;
+}
+
+body.work section .row:first-child {
+	border: 0;
+	padding-top: 0;
+}
+
+body.about section {
+	margin-top: 18px;
+}
+
+/* responsive tweaks */
+
+/* Large desktop */
+@media (min-width: 1200px) {  }
+
+@media (max-width: 1199px) {  
+	
+	body.work .tmb {
+		float: left;
+		margin: 20px 0 20px 0;
+	}
+	
+	body.work h3 {
+		clear: left;
+	}
+	
+}
+
+@media (max-width: 979px) {  
+	body {
+		padding-top: 0;
+	}
+	
+	body.home #callout {
+		background: none;
+	}
+	
+	body.home #callout .span10 {
+		width: 100%;
+	}
+	
+	body.home #callout .offset2 {
+		margin-left: 0;
+	}
+			
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {}
