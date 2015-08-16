@@ -51,13 +51,13 @@ footer .container p {
 }
 
 body.home #callout {
-	min-height: 500px;
+	min-height: 300px;
 	background: url(../res/img/home01.jpg) 0 0 no-repeat;
 	background-size : 100% 100%;
 }
 
 body.sas #callout{
-	min-height:500px;
+	min-height:300px;
 	background: url(../res/img/appetizer.jpg) 0 0 no-repeat;
 	background-size: 100% 100%;
 }
@@ -83,7 +83,7 @@ body.sde #callout{
 
 body.aboutTheRestaurant #callout{
 	min-height:500px;
-	background: url(../res/img/home01.jpg) 0 0 no-repeat;
+	background: url(../res/img/home02.jpg) 0 0 no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -93,11 +93,10 @@ body.aboutTheRestaurant #callout{
 	font-size: 2.7em;
 	color: #000000;
 	line-height: 1.5;
-	text-align:center;
 	padding: 1em 0 0 0;
 }
 
-h3.menu_text, h3.click_call_text, h3.navigation_text, h3.feedback_text {
+h3.menu_text, h3.click_call_text, h3.navigation_text, h3.feedback_text , h3.aboutTheRestaurant_text, h3.aboutMe {
 	padding-left: 55px;
 	padding-top: 5px;
 	height: 32px;
@@ -126,6 +125,22 @@ h3.navigation_text {
 }
 h3.feedback_text {
 	background: transparent url(../res/img/feedback.png) 0 0 no-repeat;
+	padding-left: 55px;
+	padding-top: 5px;
+	height: 64px;
+	
+}
+
+h3.aboutTheRestaurant_text {
+	background: transparent url(../res/img/restaurant.png) 0 0 no-repeat;
+	padding-left: 55px;
+	padding-top: 5px;
+	height: 64px;
+	
+}
+
+h3.aboutMe_text {
+	background: transparent url(../res/img/aboutMe.png) 0 0 no-repeat;
 	padding-left: 55px;
 	padding-top: 5px;
 	height: 64px;
