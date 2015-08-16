@@ -63,26 +63,26 @@ body.sas #callout{
 }
 
 body.coas #callout{
-	min-height:500px;
+	min-height:300px;
 	background: url(../res/img/caprese_on_a_stick.jpg) 0 0 no-repeat;
 	background-size: 100% 100%;
 }
 
 body.csc #callout{
-	min-height:500px;
+	min-height:300px;
 	background: url(../res/img/crunchy_spiced_chickpeas.jpg) 0 0 no-repeat;
 	background-size: 100% 100%;
 }
 
 body.sde #callout{
-	min-height:500px;
+	min-height:300px;
 	background: url(../res/img/simple_deviled_eggs.jpg) 0 0 no-repeat;
 	background-size: 100% 100%;
 }
 
 
 body.aboutTheRestaurant #callout{
-	min-height:500px;
+	min-height:300px;
 	background: url(../res/img/home02.jpg) 0 0 no-repeat;
 	background-size: 100% 100%;
 }
